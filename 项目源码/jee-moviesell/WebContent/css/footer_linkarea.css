@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+#footer_linkarea {
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 80%; 
+}
+
+#footer_linkarea table {
+	border: 2px #F1F7F7 solid;
+}
+
+#footer_linkarea table td {
+	border: 2px #F1F7F7 solid;
+}

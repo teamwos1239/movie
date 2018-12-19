@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//Dtd XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/Dtd/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+
+<body>
+
+	<div id="roll">
+		<table id="table_roll">
+			<tr> 
+				<td>
+					<!--------------------demo start------------------>
+					<div id=demo
+						style="overflow: hidden; width: 240px; color: #ffffff; height: 157px;">
+						<table cellpadding=0 width="100%" align=left border=0 cellspacing="0">
+							<tr>
+								<!--------------------demo1--------------------->
+								<td id=demo1 valign=top>
+									<table cellspacing=0 cellpadding=0 align=center border=0>
+										<tr>
+											<td align="center"><img src="../pic/index/lunbo/20140929174737537325.jpg" /></td>
+											<td align="center"><img src="../pic/index/lunbo/20141008172846739565.jpg"/></td>
+											<td align="center"><img src="../pic/index/lunbo/20141027151216406904.jpg" /></td>
+										</tr>
+									</table>
+								</td>
+								<!------------demo2--------------------->
+								<td id=demo2 width="0"></td>
+							</tr>
+						</table>
+					</div> <!--------------------demo end------------------>
+					 <script>
+						var dir = 1//每步移动像素，大＝快
+						var speed = 6//循环周期（毫秒）大＝慢
+						demo2.innerHTML = demo1.innerHTML
+						function Marquee() { 
+							if (dir > 0
+									&& (demo2.offsetWidth - demo.scrollLeft) <= 0)
+								demo.scrollLeft = 0
+							if (dir < 0 && (demo.scrollLeft <= 0))
+								demo.scrollLeft = demo2.offsetWidth
+							demo.scrollLeft += dir
+
+							demo.onmouseover = function() {
+								clearInterval(MyMar)
+							}//暂停移动
+							demo.onmouseout = function() {
+								MyMar = setInterval(Marquee, speed)
+							}//继续移动
+						}
+						function r_left() {
+							if (dir = -1)
+								dir = 1
+						}//换向左移
+						function r_right() {
+							if (dir = 1)
+								dir = -1
+						}//换向右移
+
+						var MyMar = setInterval(Marquee, speed)
+					</script>
+				</td>
+				 
+			</tr>
+		</table>
+	</div>
+
+</body>
+</html>

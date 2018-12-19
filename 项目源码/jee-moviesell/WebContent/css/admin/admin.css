@@ -1,0 +1,231 @@
+@charset "utf-8";
+/* CSS Document */
+.content {
+	height: 851px;
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 79%;
+	font-size: 16px;
+	color: #999;
+	font-family: '微软雅黑';
+	/*border: 2px black solid;*/
+}
+
+a {
+	text-decoration: none;
+}
+
+.content .nav_on {
+	color: black;
+}
+
+.content .content_main {
+	width: 96%;
+	padding-top: 13px;
+	padding-left: 26px;
+	float: left;
+}
+
+.content .content_main  .main_main {
+	height: 500px;
+}
+
+.main_main .main_left {
+	width: 17%;
+	padding-top: 0;
+	background: white;
+	float: left;
+}
+
+.main_main .main_left .admin_img {
+	margin-top: 20px;
+}
+
+.main_main .main_left .admin_menu {
+	list-style: none;
+	border: 1px solid #44B5D8;
+	margin-top: 67px;
+}
+
+.admin_menu .admin_tit {
+	color: black;
+	background: white;
+	font-size: 18px;
+	border-bottom: #44B5D8 1px solid;
+	border-top: #44B5D8 1px solid;
+	cursor: pointer;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	font-weight: 500;
+}
+
+.admin_menu .admin_on,#admin_on {
+	color: white;
+	background: #5DB6E0;
+}
+
+.admin_menu  ul.admin_con {
+	list-style: none;
+	margin: 10px 10px;
+	padding: 0;
+	background: white;
+	cursor: pointer;
+	font-size: 12px;
+	padding: 0;
+}
+
+.admin_menu  ul.admin_con li {
+	height: 33px;
+	font-size: 15px;
+	line-height: 33px;
+	text-align: center;
+	font-family: serif;
+}
+
+.admin_menu  ul.admin_con li a {
+	color: #555;
+}
+
+.admin_menu  ul.admin_con li a.o_on {
+	color: #5DB6E0;
+	font-weight: bold;
+}
+
+.admin_menu  ul.admin_con li a:HOVER {
+	color: #5DB6E0;
+}
+
+.content .content_right {
+	float: left;
+	width: 81%;
+	margin-left: 2%;
+}
+
+.content .content_main .main_tit {
+	line-height: 58px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	font-size: 24px;
+	border-bottom: 1px dashed;
+	color: #000;
+	height: 66px;
+	text-align: center;
+}
+
+.content .content_right .main_tit2 {
+	color: #333;
+	font-size: 20px;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 31px;
+}
+
+.content .content_right .main_main {
+	
+}
+
+.content .content_right .main_main table {
+	width: 100%;
+	text-align: center;
+	background: white;
+	border: 1px #5DB6E0;
+	border-style: dotted;
+}
+
+.content .content_right .main_main table tr {
+	
+}
+
+.content .content_right .main_main table tr.tab_tit {
+	height: 46px;
+	color: black;
+}
+
+.content .content_right .main_main table tr.tab_main {
+	height: 38px;
+	color: #444;
+	font-size: 14px;
+}
+
+.content .content_right .main_main table td {
+	
+}
+
+.content .content_right .main_main table button {
+	background: #5DB6E0;
+	border: 0;
+	font-size: 15px;
+	color: white;
+	width: 51px;
+	height: 27px;
+	cursor: pointer;
+	margin-right: 6px;
+}
+
+.main_main .page_to {
+	height: 37px;
+	line-height: 41px;
+	margin-top: 40px;
+	float: right;
+	margin-bottom: 40px;
+}
+
+}
+.main_main .page_to div {
+	float: left;
+	width: 27px;
+	text-align: center;
+}
+
+.main_main .page_to div a {
+	color: #666;
+}
+
+.main_main div a:HOVER {
+	color: #5DB6E0;
+}
+
+.main_main .page_to div.page_on {
+	background: #5DB6E0;
+}
+
+.main_main .page_to div.page_on a {
+	color: white;
+}
+
+.main_main .querybtn {
+	background: #5DB6E0;
+	border: 0;
+	font-size: 16px;
+	color: white;
+	width: 76px;
+	height: 35px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#footer {
+	background: #48B3F5;
+	width: 100%;
+	height: 80px;
+}
+
+#addcityflag {
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 100px;
+	color: #5DB6E0;
+	font-size: 37px;
+}
+
+#queryPic {
+	background: #5DB6E0;
+	border: 0;
+	font-size: 16px;
+	height: 41px;
+	color: white;
+	top: -86px;
+	cursor: pointer;
+	position: relative;
+}

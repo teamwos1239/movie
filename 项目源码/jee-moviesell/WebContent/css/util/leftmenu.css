@@ -1,0 +1,40 @@
+.headtd1 {
+	background: #eaeaea;
+	border: 1px outset;
+	border-color: #ffffff #000000 #000000 #ffffff;
+	cursor: hand;
+	font-size: 9pt
+}
+
+.headtd2 {
+	background: #cccccc;
+	border: 1px outset;
+	border-color: #ffffff #000000 #000000 #ffffff;
+	cursor: hand;
+	font-size: 9pt
+}
+
+.bodytd {
+	background: #eeeeee;
+	border: 1px outset;
+	border-color: #ffffff #000000 #000000 #ffffff;
+	font-size: 9pt
+}
+
+#mainboard {
+	position: absolute;
+	left: 2px;
+	top: 100px;
+	width: 120px;
+	height: 269px;
+	z-index: 1;
+	overflow: hidden;
+	background: #eeeeee;
+}
+
+#mainboard table {
+	width: 100px;
+	border: 0;
+	height: 100%;
+	
+}

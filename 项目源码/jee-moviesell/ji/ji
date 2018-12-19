@@ -1,0 +1,37 @@
+select * from showmoive s where s.tno=(select t.tno from theatres t where t.cno=4)
+
+
+select tt.tname,m.mname,x.* from
+(select * from showmoive s where s.tno=(select t.tno from theatres t where t.cno=4)) x,theatres tt,movies m
+where x.tno=tt.tno and x.mno=m.mno;
+
+
+
+select t.tname,m.mname,s.* from showmoive s,theatres t,movies m where s.mno=m.mno and s.tno=t.tno and t.cno=2;
+
+
+
+
+
+select t.tname,m.mname,s.* from showmoive s,theatres t,movies m where s.mno=m.mno and s.tno=t.tno and t.cno=1;
+
+
+
+
+测试：
+
+select t.tname,m.mname,s.* from showmoive s,theatres t,movies m where s.mno=m.mno and s.tno=t.tno and t.cno=4 and s.stime<now();
+
+
+
+
+视图：
+CREATE VIEW `jeemoviesell`.`V_showmoive` AS
+  select m.mversion as smversion,m.mlength as smlength,t.tname as stname,m.mname as smname,s.*,t.cno
+  from showmoive s,theatres t,movies m
+  where s.mno=m.mno and s.tno=t.tno ;
+
+查询全部
+SELECT * FROM v_showmoive v where  cno=4 and stime<now()
+
+SELECT * FROM v_showmoive v where  cno=4 and stime<now() and smversion='4d'

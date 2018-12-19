@@ -1,0 +1,213 @@
+@charset "utf-8";
+/* CSS Document */
+.content {
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 85%;
+	font-size: 16px;
+	color: #999;
+	font-family: '微软雅黑';
+}
+
+.content .content_theatres{
+	
+	background: white;
+}
+
+.content .content_tab {
+	width: 100%;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	text-align: center;
+	background: white;
+}
+
+.content .content_tab  .version {
+	background: url("../pic/movietimes/th a.jpg") no-repeat 10px -9px;
+	width: 57px;
+	height: 18px;
+	display: inline-block;
+}
+
+.content .content_tab th {
+	color: white;
+	height: 43px;
+	background-color: #5DB6E0;
+	border: 1px white solid;
+}
+
+.content .content_tab td {
+	padding: 0;
+	vertical-align: top;
+	
+}
+
+.content .content_tab td a {
+	text-decoration: none;
+	cursor: pointer;
+	color: #666;
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	font-size: 13px;
+	border: 1px white solid;
+}
+
+.content .content_tab a.onc {
+	border: 1px #BAB9B9 solid;
+	background: #ccd;
+}
+
+.content .content_tab .filmdate {
+	
+}
+
+.content .content_tab .filmtheatre {
+	text-align: left;
+	margin-left: 8px;
+}
+
+.content .content_tab .filmname {
+	height: 132px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.content .content_tab .filmtime {
+	
+}
+
+.content_tab .row1 {
+	float: left;
+	width: 50%;
+}
+
+.content_tab .row2 {
+	float: left;
+	width: 50%;
+}
+
+.content .content_tui {
+	color: #DD4B39;
+	font-size: 13px;
+	float: right;
+	height: 50px;
+	line-height: 50px;
+}
+
+.content .content_nav {
+	color: black;
+}
+
+.content .content_nav a {
+	text-decoration: none;
+	color: #2E92CF;
+}
+
+.content .content_nav a:hover {
+	color: #5DB6E0;
+	text-decoration: underline;
+}
+
+.content .content_theatres table {
+	width: 100%;
+}
+
+.content_theatres table .tab_header {
+	color: black;
+	font-weight: bold;
+}
+
+.content_theatres table tr {
+	text-align: center;
+}
+
+.tab_seat {
+	color: white;
+	background: url('../pic/movietimes/seat.jpg');
+	float: right;
+	width: 23px;
+	height: 22px;
+	background-position-y: 0px;
+	margin-right: 5px;
+}
+
+.tab_ka {
+	color: white;
+	background: url('../pic/movietimes/live.jpg') no-repeat;
+	float: right;
+	width: 23px;
+	height: 22px;
+	background-position-y: 0px;
+	margin-left: 7px;
+	float: left;
+}
+
+.tab_quan {
+	color: white;
+	background: url('../pic/movietimes/zhuan_1.jpg') no-repeat;
+	float: right;
+	width: 23px;
+	height: 22px;
+	background-position-y: 0px;
+	margin-right: 7px;
+	float: right;
+}
+
+.content_theatres .tab_content {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.content_theatres table td {
+	border-bottom: 1px solid #aaa;
+}
+
+.content_theatres table .row_time {
+	color: #DD4B39;
+	width: 262px;
+}
+
+.content_theatres table .row_seats {
+	color: #4E9449;
+	width: 97px;
+}
+
+.content_theatres table .row_seats span.i {
+	font-style: italic;
+	float: left;
+}
+
+.content_theatres table .row_language {
+	
+}
+
+.content_theatres table .row_version {
+	
+}
+
+.content_theatres table .row_length {
+	
+}
+
+.content_theatres table .row_special {
+	width: 64px;
+}
+
+.content_theatres table .row_price {
+	
+}
+
+.content_theatres table .row_btn {
+	width: 153px;
+}
+
+.content_theatres table .row_btn button {
+	border: 1px white solid;
+	background-color: #5EB7E2;
+	color: white;
+	width: 93px;
+	height: 35px;
+	cursor: pointer;
+	font-size: 20px;
+}

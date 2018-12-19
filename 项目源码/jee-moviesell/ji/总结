@@ -1,0 +1,83 @@
+<div id="top_city" class="top_city">
+        	
+        		<!--城市选择  --> 
+        		城市
+        		<%
+					String[] citiesarr = {"北京", "天津", "重庆", "上海", "河北", "山东", "河南",
+							"浙江", "辽宁", "内蒙古", "宁夏", "山西", "陕西", "广东", "海南", "福建",
+							"青海", "四川", "云南", "吉林", "黑龙江", "新疆"};
+					request.setAttribute("citiesarr", citiesarr);
+					String pagePath=request.getServletPath().substring(1);
+					request.setAttribute("pagePath",pagePath);
+				%>
+				<script type="text/javascript" charset="utf-8">
+					function findProHelp(pagePath,proname){
+						url="/jee-moviesell/SaveProSelectedServlet?pagePath="+pagePath+"&&proname="+proname;
+						location=url;
+					}
+				</script>
+        		
+				<select id="select_pro" class="select_pro" onchange="findProHelp('${pagePath }',this.value);"> 
+					<c:forEach items="${citiesarr}" var="province" varStatus="i">
+						<c:if test="${sessionScope.selectedPro==province}">
+							<option value="${province}" onclick="" selected="selected" >${province}</option>					
+	       				</c:if>
+	       				<c:if test="${sessionScope.selectedPro!=province}">
+							<option value="${province}" onclick="" >${province}</option>					
+	       				</c:if>
+					</c:forEach>
+				</select>
+        		
+        		
+				<script type="text/javascript">
+					function findCityHelp(pagePath,cno){
+						location="/jee-moviesell/SaveCityHelperServlet?pagePath="+pagePath+"&&cno="+cno+"";
+					}
+				</script>
+				
+				<select id="select_city" class="select_city" name="" onchange="findCityHelp('${pagePath }',this.value);"> 
+					<c:forEach items="${sessionScope.lstSetCities }" var="city" varStatus="i">
+						
+        				<c:if test="${sessionScope.selectedCity==city.cno}">
+							<option value="${city.cno}" onclick="" selected="selected" >${city.cname }</option> 	
+        				</c:if>
+        				<c:if test="${sessionScope.selectedCity!=city.cno}">
+							<option value="${city.cno}" onclick="" >${city.cname }</option>					
+        				</c:if>
+					</c:forEach>
+				</select>
+        	  	<!--城市选择  -->
+				
+			</div>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		
+		
+"北京","天津","上海","黑龙江","河北","重庆","山东","内蒙古","浙江","广东","吉林","安徽","湖南","江苏","四川","辽宁","山西","福建","贵州","海南","陕西","长春","湖北","云南","甘肃","河南","江西","广西","大连","宁夏"	
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			

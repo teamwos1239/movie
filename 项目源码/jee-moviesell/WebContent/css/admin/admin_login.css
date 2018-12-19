@@ -1,0 +1,45 @@
+.content{
+	height: 491px;
+}
+
+
+#admin_login_tit {
+	text-align: center;
+	color: black;
+	font-size: 38px;
+	font-weight: bold;
+}
+
+#admin_login_main {
+	margin: 0 auto;
+	width: 33%;
+	margin-top: 11%;
+}
+
+#admin_login_main table {
+	
+}
+
+#admin_login_main table tr {
+	color: #5EB7E2;
+	font-size: 18px;
+	height: 50px;
+	line-height: 50px;
+	font-weight: bold;
+}
+
+#admin_login_main table td {
+	text-align: center;
+}
+
+#admin_login_main table td input.btn {
+	background: #5DB6E0;
+	border: 0;
+	font-size: 15px;
+	color: white;
+	width: 100px;
+	height: 37px;
+	cursor: pointer;
+	margin-right: 6px;
+}
+}

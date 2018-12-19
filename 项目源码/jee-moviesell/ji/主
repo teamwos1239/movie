@@ -1,0 +1,62 @@
+ServletContext application = request.getServletContext();
+		List<String> onLineList = ((List<String>) application.getAttribute("onLineList"));
+
+处理GET请求的中文乱码问题
+		String proname = request.getParameter("proname").toString();
+		proname = new String(proname.getBytes("iso-8859-1"),"utf-8");
+
+
+邮箱注册
+
+邮箱修改
+
+在线人数
+
+在线列表
+
+
+    放映时间： 上午：07：00--13：00   T<=13  				where hour(stime)<=13
+    	下午：13：00--18：00  T<13 and T<=18   		where hour(stime)<13 and <=18
+    	晚上：18：00--22：00  T>18  					where hour(stime)>18
+    	
+    	
+电影的版本只能唯一：3D  IMAX-3D 2D IMAX-2D XLAND
+			 1  	2   3  4  5
+3D 1 IMAX-3D 2 2D 3 IMAX-2D 4 XLAND 5
+			 
+			 
+订单详情		  
+
+座位信息 0不能出售 1已出售 2可定
+
+	管理员：0-管理员可以选    1已售 2管理员已选 用户可预订
+		管理员---0  2
+ 
+ 流水帐号：session的id加 时间yyMMddHHmmss
+ 
+ 
+ 用户昵称唯一
+ 
+图片路径唯一
+ 
+-----------------电影播放信息-----------------------------------
+ 
+ 
+每个电影院 的每个厅 播放时间：
+
+	上午
+		08:30--10:30
+		11:00--13:00
+	下午
+		13:30--15:30
+		16:00--18:00
+	晚上
+		18:30--20:30
+		21:00--23:00
+		
+每个电影院有8个厅
+	每个厅  --每天6场 只播放一个电影
+	一个电影院一天播放8个电影（8个厅）
+	
+	
+	

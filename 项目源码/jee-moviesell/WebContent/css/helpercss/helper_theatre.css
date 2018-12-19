@@ -1,0 +1,45 @@
+.main_right {
+	width: 71%;
+}
+
+.main_right .theatre_tit {
+	color: black;
+	font-family: '黑体';
+	font-size: 31px;
+	text-align: center;
+}
+
+.main_right .theatre_name {
+	color: black;
+	font-size: 23px;
+	font-family: '微软雅黑';
+	padding: 10px;
+}
+
+.main_right .theatre_other {
+	position: relative;
+	font-size: 16px;
+	top: -30px;
+	float: right;
+}
+
+.main_right .theatre_img {
+	position: relative;
+	top: -390px;
+	left: 67px;
+	float: right;
+}
+
+.main_right .theatre_main {
+	color: black;
+}
+
+.main_right .theatre_main .cont {
+	color: #888;
+}
+
+.main_right .theatre_main .zhu {
+	color: #782118;
+	font-size: 14px;
+	padding: 14px;
+}

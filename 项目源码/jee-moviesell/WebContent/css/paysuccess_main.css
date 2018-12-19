@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+.content {
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 85%;
+	font-size: 16px;
+	color: #999;
+	font-family: '微软雅黑';
+}
+
+.content .content_nav {
+	font-family: "黑体";
+	margin-left: 78px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.content .content_nav span {
+	
+}
+
+.content .content_nav a {
+	text-decoration: none;
+	color: #999;
+}
+
+.content .content_nav a:hover {
+	color: #5AB7E2;
+}
+
+.content .content_nav .nav_off {
+	float: left;
+	width: 250px;
+}
+
+.content .content_nav .nav_on {
+	color: #5AB7E2;
+	float: left;
+	width: 251px;
+}
+
+.content .content_main {
+	width: 93%;
+	border: 1px solid #C6E5DC;
+	padding-left: 7%;
+	padding-bottom: 26px;
+	background: white;
+	height: 380px;
+}
+
+.content .content_main .main_tip {
+	color: #5AB7E2;
+	text-align: center;
+	font-size: 26px;
+}

@@ -1,0 +1,60 @@
+    
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	.sh1{
+		background:#36383B ;
+		filter:alpha(opacity=60);
+		-moz-opacity:0.6; 
+		opacity:0.6;
+	}
+
+</style>
+</head>
+
+
+
+<body>
+	<script type="text/javascript">
+	</script>
+
+	 <div onMouseMove="imgover();" onMouseOut="imgout();">
+     	<div style="position:absolute;z-index:1;width:200px; height:250px; border:1px black solid; display:none; text-align:center;" id="sh" class="sh1" >
+        	<div style="height:86px; line-height:86px; width:100%;color:#FFF;">IMAX/2D</div>
+        	<img src="../pic/index/filmInfo.png" width="58" height="57" title="影片详情" style="cursor:pointer;">
+            <img src="../pic/index/buyTicket.png" width="58" height="57" title="购买" style="cursor:pointer;">
+            <div style="height:86px; line-height:86px;width:100%;color:#FFF;">xxxxxxx</div>
+        	
+        </div>
+     	<div style="width:200px; height:250px; border:1px black solid;">
+        	<img src="../pic/index/poster/20140408151533100691.jpg" width="174" height="232">
+        	<br>
+        	<a>xxxxxxxxxx</a>        
+        </div>  
+     </div>
+	 
+    <script>
+	
+		function imgover(){ 
+			 
+			document.getElementById('sh').style.display="block";  
+				
+		}
+		
+		function imgout(){
+			document.getElementById('sh').style.display="none";
+			//document.getElementById("sh1").style="display:none";
+			
+			
+		}
+    
+	</script>
+    
+    
+    
+    
+</body>
+</html>

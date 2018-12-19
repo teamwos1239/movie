@@ -1,0 +1,244 @@
+@charset "utf-8";
+/* CSS Document */
+.content { /*height: 1000px;*/
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 79%;
+	font-size: 16px;
+	color: #999;
+	font-family: '微软雅黑';
+	/*border: 2px black solid;*/
+}
+
+.content .content_nav {
+	height: 25px;
+}
+
+.content .content_nav_1 {
+	font-size: 12px;
+	float: left;
+	margin-top: 3px;
+}
+
+.content .content_nav_2 {
+	float: left;
+	font-size: 14px;
+	color: black;
+}
+
+.content .content_tit {
+	height: 25px;
+}
+
+.content .content_tit .content_tit_left {
+	float: left;
+}
+
+.content_tit .content_tit_left .content_tit_left1 {
+	font-size: 21px;
+	color: black;
+}
+
+.content_tit .content_tit_left .content_tit_left2 {
+	font-size: 12px;
+}
+
+.content .content_tit .content_tit_right {
+	float: right;
+	font-size: 12px;
+}
+
+.content_tit .content_tit_right button {
+	border: 1px white solid;
+	background-color: #5EB7E2;
+	color: white;
+	width: 85px;
+	height: 30px;
+	cursor: pointer;
+}
+
+.content .content_poster {
+	margin-top: 20px;
+}
+
+.content .content_main {
+	margin-top: 30px;
+	border: 1px solid #C6E5DC;
+	width: 100%;
+	height: 1100px;
+	background-color: white;
+	border: 1px solid #C6E5DC;
+}
+
+.content .content_main .content_main_msg {
+	
+}
+
+.content_main_msg .main_msg_left {
+	margin-left: 20px;
+	margin-top: 20px;
+	float: left;
+}
+
+.content_main_msg button {
+	border: 1px white solid;
+	background-color: #5EB7E2;
+	color: white;
+	width: 98px;
+	height: 40px;
+	position: relative;
+	left: 173px;
+	top: 109px;
+	font-size: 22px;
+	cursor: pointer;
+}
+
+.main_msg_left .main_msg_left_tit {
+	color: black;
+	height: 30px;
+	line-height: 30px;
+}
+
+.content_main_msg .main_msg_left ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.content_main_msg .main_msg_left li {
+	font-size: 12px;
+	height: 30px;
+	line-height: 30px;
+}
+
+.content_main_msg .main_msg_right {
+	margin-top: 20px;
+	float: right;
+	margin-right: 20px;
+	border-left: dashed 1px #666;
+	padding-left: 20px;
+}
+
+.content_main .content_main_juqing {
+	margin-top: 20px;
+	float: left;
+	margin-left: 20px;
+	width: 96%;
+}
+
+.content_main .content_main_juqing .main_juqing_tit {
+	color: black;
+	height: 30px;
+	line-height: 30px;
+}
+
+.content_main .content_main_juqing .main_juqing_main {
+	font-size: 12px;
+}
+
+.content_main .content_main_juqing .main_juqing_main a {
+	text-decoration: none;
+	color: #5DB6E0;
+}
+
+.content_main  .content_main_juzhao {
+	margin-top: 20px;
+	float: left;
+	margin-left: 20px;
+}
+
+.content_main  .content_main_juzhao .main_juzhao_tit {
+	color: black;
+	height: 30px;
+	line-height: 30px;
+}
+
+.content_main	.content_main_juzhao a {
+	margin-right: 12px;
+}
+
+.content_main	.content_main_juzhao img {
+	width: 175px;
+	height: 120px;
+	border: 0;
+	margin-top: 14px;
+}
+
+.content_main	.main_pinglun {
+	margin-top: 20px;
+	float: left;
+	margin-left: 20px;
+	width: 100%;
+	font-size: 12px;
+}
+
+.content_main	.main_pinglun .pinglu_main {
+	height: 50px;
+}
+
+.content_main	.main_pinglun .main_pinglun_tit {
+	color: black;
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+}
+
+.content_main	.main_pinglun .main_pinglun_xuhao {
+	float: right;
+	font-size: 16px;
+	margin-right: 20px;
+	color: black;
+}
+
+.main_pinglun .main_pinglun_xuhao .xuhao {
+	padding: 7px; text-decoration : none;
+	color: #666;
+	width: 20px;
+	text-decoration: none;
+}
+
+.main_pinglun .main_pinglun_xuhao .pinglu_on {
+	border: 1px solid white;
+	background-color: #2E92CF;
+	color: white;
+}
+
+.content_main	.main_fapinglun {
+	margin-top: 20px;
+	float: left;
+	margin-left: 20px;
+	width: 100%;
+}
+
+.content_main	.main_fapinglun .main_fapinglun_tit {
+	color: black;
+	height: 30px;
+	line-height: 30px;
+}
+
+.content_main	.main_fapinglun .fapinglun_txt {
+	width: 96%;
+	height: 73px;
+}
+
+.content_main	.main_fapinglun span {
+	font-size: 12px;
+	float: right;
+	margin-top: 27px;
+	margin-right: 17px;
+}
+
+.content_main	.main_fapinglun button {
+	border: 1px white solid;
+	background-color: #5EB7E2;
+	color: white;
+	width: 94px;
+	height: 39px; 
+	line-height : 39px;
+	float: right;
+	margin-top: 16px;
+	font-size: 25px;
+	margin-right: 39px;
+	cursor: pointer;
+	line-height: 39px;
+}

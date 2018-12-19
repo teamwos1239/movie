@@ -1,0 +1,89 @@
+抽奖程序完成
+ 数据导入
+ IO流文件的默认路径是以项目作为根目录
+ 
+如何读取IO流内容（用循环）
+
+
+java.io.*
+File 文件系统
+RanomAccessFile 随机获取文件内容
+InputStream
+BufferedInputStream
+Reader
+BufferedReader
+   FileinputStream          InputStreamReader
+File------------>inputStream------------->Reader
+
+输出流中跟BufferedReader(缓冲字符输入流)相对应的有
+PrintWriter
+
+事件处理
+  定义一个事件监听器（管理所有的按钮的事件）
+  
+  
+  
+关于次数管理，
+业务部分
+定义int属性，保存次数
+暂停的时候，修改次数
+开始的时候判断次数
+显示部分
+创建JLabel属性用来显示次数
+重新设置次数
+刷新次数（暂停的时候）
+  
+工具类的制作
+将一些共有的，稳定性较高的，耦合度较低的东西封装成
+工具类，便于项目调用
+API当中也有很多工具类 如 Arrays Collections
+工具类非常实用，如数据类连接，
+
+可以移动给定窗口的位置的工具类
+一般情况下工具类都提供静态方法(无需创建工具类对象)
+LocationUtil
+
+*****
+关于时间的问题
+Java表示时间的方法，
+long Date Calendar String
+但是long Date Calendar本质都是long
+Java默认的时间是从1970年元旦0时0分0秒0毫秒到现在的
+毫秒值
+获得这个值得快速方法
+System.currentTimeMillis()
+
+Date
+
+Calendar(只要创建也包含当前时间)
+获得时间，cal.get(int 单位)  Calendar.YEAR
+修改时间   cal.set(单位,改变后的值)
+
+
+long Date Calendar String 相互转换
+ 
+日期，字符串互转的时候，需要定义个转换器，转换器带有
+格式，但是我们的数据必须按照格式来
+格式里有几个特殊的预定义字符
+yyyy 四位年
+MM  月
+dd  日
+HH  24小时制时
+hh  12      时
+mm  分
+ss  秒
+SSS 毫秒
+
+计时器
+Timer 计时器
+Timer timer=new Timer();
+timer.schedule(TimerTask task,long time);
+从系统启动时开始计时，到time毫秒以后执行task
+timer.schedule(TimerTask task,long time1，long time2);
+从系统启动时开始计时，到time毫秒以后 每time2毫秒执行task
+timer.cancle() 取消计时
+
+欢迎界面加到我们程序中
+
+
+

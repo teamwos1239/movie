@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+#top {
+	
+}
+
+#top span.link {
+	float: right;
+}
+
+#top span.link a:LINK {
+	color: #666;
+}
+
+#top span.link a:HOVER {
+	color: #5EB7E2;
+}
+
+/* CSS Document */
+.top {
+	width: 80%;
+	margin: 0 auto;
+	height: 29px;
+}
+
+.top #top_1 {
+	height: 20px;
+}
+
+.top_link .top_city {
+	font-size: 20px;
+	float: left;
+	color: #666;
+}
+
+.top_link .top_city option {
+	font-size: 12px;
+	text-align: center;
+	color: #666;
+}
+
+.top_logo {
+	background-color: #E0EEF7;
+}
+
+.top_logo  .logo_div {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.top_link .link {
+	font-size: 12px;
+	color: #666;
+	margin-right: 5px;
+}
+
+.top_link .link {
+	float: right;
+}
+
+.top_link a:hover {
+	font-size: 16px;
+}
+
+.top_nav {
+	width: 100%;
+	background: #5EB7E2;
+	height: 44px;
+	line-height: 44px;
+}
+
+.top_nav ul {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.top_nav li {
+	list-style: none;
+	float: left;
+	text-align: center;
+	width: 153px;
+}
+
+.top_nav li a {
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+}

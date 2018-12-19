@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.footer{ 
+	width:100%;
+	height:90px;
+	 
+	
+}
+
+
+.footer_nav{
+	width:100%;
+	background:#5EB7E2;
+	height:35px;
+	line-height:35px
+}
+
+
+.footer_nav .footer_link{
+	float: left;
+	margin-left: 13%;
+	width: 74%;
+	color:#fff;
+}
+.footer_nav .footer_link a{
+
+	color:#fff;
+	text-decoration:none;
+	font-size:12px;
+}
+
+
+.footer_nav .footer_link .footer_link_left{
+	float:left;
+	
+	
+}
+
+.footer_nav .footer_link .footer_link_right{
+	float:right;
+	
+	
+}
+
+.footer .footer_info{ 
+	margin-left: 13%;
+	width: 74%;
+	color:#999;
+	font-size:12px;
+	height:33px;
+	line-height:33px;
+	
+}
